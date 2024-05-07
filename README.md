@@ -175,7 +175,7 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 113240](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/9145bc1a-da99-437f-b2b9-3384f2c7d9b5)
+![Screenshot 2024-05-07 113151](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/d488fe2c-7987-4314-a9c3-b372243acb47)
 
 
 ### ix) Split and merge RGB Image
@@ -198,7 +198,8 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185858](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/dad1d471-b3b8-452c-bc29-7fb03fcd5fde)
+![Screenshot 2024-05-07 113240](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/07ddc9d1-3ef7-4f5f-93c5-7688deff9665)
+
 
 ### x) Split and merge HSV Image
 ```
@@ -219,7 +220,8 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185920](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/56dae9ee-70dc-46fd-ac9f-05aa6d16f635)
+![Screenshot 2024-05-07 113325](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/a8dbb466-2fe6-456f-8eb1-05273472a8aa)
+
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
