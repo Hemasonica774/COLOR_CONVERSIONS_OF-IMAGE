@@ -46,29 +46,38 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('hema.jpg',1)
 image=cv2.resize(image,(400,300))
-cv2.imshow('rose',image)
+cv2.imshow('hems',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 ```
-![Screenshot 2024-02-21 185629](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0ee6cb13-9912-43fb-a330-55ce22f32989)
+
+![Screenshot 2024-05-07 113357](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/49d3dd5a-569f-4f33-85f3-7728c4ac5ce5)
+
 
 ### ii)Write the image
 ```
 import cv2
-image=cv2.imread('tree.png',0)
+image=cv2.imread('hema.jpg',0)
 cv2.imwrite('test.jpg',image)
+
 ```
-![Screenshot 2024-02-21 214919](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/9d329b84-a4ad-429a-9e6b-33533b8f80e6)
+![Screenshot 2024-05-07 113751](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/6e3b9969-44e5-46ed-8410-f6dc682918ed)
+
+
 
 ### iii)Shape of the Image
 ```
 import cv2
-image=cv2.imread('tree.png')
-print(image.shape)
+image=cv2.imread('hema.jpg')
+print(image.shape)\
+
 ```
-![Screenshot 2024-02-21 214927](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/896a2517-2d6f-4f55-90fc-fe0055fd62fd)
+![Screenshot 2024-05-07 113838](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/32860709-033d-4dbf-b1e3-6771eaf2646c)
+
+
 
 ### iv)Access rows and columns
 ```
