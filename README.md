@@ -115,7 +115,7 @@ cv2.destroyAllWindows()
 ### vi) BGR and RGB to HSV and GRAY
 ```
 import cv2
-img = cv2.imread('tree.png',1)
+img = cv2.imread('hema.png',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 
@@ -134,13 +134,14 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 113011](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/551b4f9b-c628-4b92-b704-dbdd47b6f692)
+![Screenshot 2024-05-07 113057](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/f3ade104-f0c5-4a76-a148-453d08a3cf26)
+
 
 
 
 ### vii) HSV to RGB and BGR
 ```
-img = cv2.imread('tree.png')
+img = cv2.imread('hema.png')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -155,12 +156,13 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185820](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/ab92f371-f9d9-4d5a-a98b-3a7bde7f14a4)
+![Screenshot 2024-05-07 113151](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/390b6d44-4749-49e7-86ba-9b3dec4add9b)
+
 
 ### viii) RGB and BGR to YCrCb
 ```
 import cv2
-img = cv2.imread('tree.png')
+img = cv2.imread('hema.png')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -173,13 +175,13 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185837](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/946dcf55-3986-4c38-b7b1-7feeccf3342a)
+![Screenshot 2024-05-07 113240](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/9145bc1a-da99-437f-b2b9-3384f2c7d9b5)
 
 
 ### ix) Split and merge RGB Image
 ```
 import cv2
-img = cv2.imread('tree.png',1)
+img = cv2.imread('hema.png',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
