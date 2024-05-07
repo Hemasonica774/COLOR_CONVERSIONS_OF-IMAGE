@@ -204,7 +204,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```
 import cv2
-img = cv2.imread("tree.png",1)
+img = cv2.imread("hema.png",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
