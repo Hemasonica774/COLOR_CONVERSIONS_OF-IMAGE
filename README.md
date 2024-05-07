@@ -72,7 +72,7 @@ cv2.imwrite('test.jpg',image)
 ```
 import cv2
 image=cv2.imread('hema.jpg')
-print(image.shape)\
+print(image.shape)
 
 ```
 ![Screenshot 2024-05-07 113838](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/32860709-033d-4dbf-b1e3-6771eaf2646c)
@@ -83,7 +83,7 @@ print(image.shape)\
 ```
 import random
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('hema.png',1)
 image=cv2.resize(image,(400,400))
 for i in range (150,200):
     for j in range(image.shape[1]):
@@ -94,12 +94,14 @@ cv2.imshow('part image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185707](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/37ad4393-326c-413b-a714-c31fe4691ca1)
+![Screenshot 2024-05-07 112759](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/da72ad9a-2e3c-41d5-8156-2a0444e2f0c5)
+
+
 
 ### v)Cut and paste portion of image
 ```
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('hema.png',1)
 image=cv2.resize(image,(400,400))
 tag =image[150:200,110:160]
 image[110:160,150:200] = tag
@@ -107,7 +109,8 @@ cv2.imshow('image1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185725](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c067c100-35ff-45df-9a2c-47989b6a0548)
+![Screenshot 2024-05-07 112824](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/81da9e5e-f20d-4140-84c3-1a17e6a771dc)
+
 
 ### vi) BGR and RGB to HSV and GRAY
 ```
@@ -131,7 +134,9 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-21 185755](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/672b5c9e-76be-4af9-a45c-ece3ffe2e428)
+![Screenshot 2024-05-07 113011](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/551b4f9b-c628-4b92-b704-dbdd47b6f692)
+
+
 
 ### vii) HSV to RGB and BGR
 ```
