@@ -134,8 +134,7 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 113057](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/f3ade104-f0c5-4a76-a148-453d08a3cf26)
-
+![Screenshot 2024-05-07 113011](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/7e5fc9a1-a99e-4302-b1f3-db0c8a9442e6)
 
 
 
@@ -156,7 +155,8 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 113151](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/390b6d44-4749-49e7-86ba-9b3dec4add9b)
+
+![Screenshot 2024-05-07 113057](https://github.com/Hemasonica774/COLOR_CONVERSIONS_OF-IMAGE/assets/118361409/5f0040a7-3bb8-48b5-99b5-341d7a644ab8)
 
 
 ### viii) RGB and BGR to YCrCb
